@@ -27,3 +27,10 @@ import random
                 print( "PERDISTE SE ACABARON TUS 5 INTENTOS" )
         else:
             print( "ERROR:Debe digitar un numero en el rango(10-101)" )
+
+    print( "DESEA JUGAR OTRA VEZ? DIGITE UN: 1:(SI) 2:(N0)" )
+    if deci == 1:
+    salir = 1
+    else:
+    print( "ERROR:DIGITE UN NUMERO VALIDO" )
+    salir = 3
