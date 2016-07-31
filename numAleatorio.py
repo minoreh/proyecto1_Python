@@ -10,7 +10,6 @@ while salir <2:
     conta = 0
     deci = 0
     azar = random.randint( 10, 101 )
-    print( azar )
     print( "Ingresa un numero entero entre (10-101):" )
     while int(conta) < 5:
         conta = int(conta) + 1
